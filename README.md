@@ -4,7 +4,7 @@ Draftly is an AI-powered Gmail assistant that fetches unread emails, generates d
 
 ## Submission Deliverables
 
-- GitHub Repository Link: add your public repo URL here after push
+- GitHub Repository Link: https://github.com/Mayuri7769/Draftly-Gmail-Reply-AI-Agent
 - Dockerized Solution: included via `docker-compose.yml`, `Backend/Dockerfile`, `frontend/Dockerfile`
 - Demo Video (< 5 min): follow the script in the "Demo Video Script" section
 
@@ -37,6 +37,26 @@ Draftly is an AI-powered Gmail assistant that fetches unread emails, generates d
 - Gmail Integration: Google Gmail API
 - AI Integration: Gemini REST API
 - Frontend: React + Axios
+
+## Architecture Overview
+
+Frontend (React) communicates with the Spring Boot backend through REST APIs.
+
+Backend responsibilities:
+- Gmail OAuth2 authentication
+- Gmail API integration
+- AI draft generation
+- Draft workflow management
+- MySQL persistence
+
+MySQL stores:
+- Email metadata
+- Draft content
+- Workflow status history
+
+External integrations:
+- Google Gmail API
+- Gemini AI API
 
 ## Project Structure
 
