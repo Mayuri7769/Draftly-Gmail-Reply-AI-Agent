@@ -1,0 +1,135 @@
+/* Layout and Colors */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.header-actions button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background: #ffe7e7;
+  border-color: #ffb2b2;
+}
+
+.notice {
+  margin: 12px 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notice.success {
+  background: #e9f9ee;
+  color: #155724;
+  border: 1px solid #b8e7c6;
+}
+
+.notice.error {
+  background: #fdeeee;
+  color: #7f1d1d;
+  border: 1px solid #f5b8b8;
+}
+
+.notice button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Inbox Section */
+.email-card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ai-actions {
+  margin: 15px 0;
+}
+
+.ai-actions button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.send-btn {
+  background-color: #28a745 !important;
+  margin-top: 10px;
+}
+
+/* History Table Section */
+.history table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 20px;
+}
+
+.history th, .history td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.history-header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-header select {
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Status Colors for Step 6 Monitoring */
+.status-sent { color: green; font-weight: bold; }
+.status-failed { color: red; font-weight: bold; }
+.status-pending { color: orange; }
