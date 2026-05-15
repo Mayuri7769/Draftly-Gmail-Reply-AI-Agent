@@ -51,6 +51,7 @@ frontend/dist/
 .env
 .env.local
 
+Backend/src/main/resources/application.properties
 # Logs
 *.log
 npm-debug.log*
