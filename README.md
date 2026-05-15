@@ -6,7 +6,9 @@ Draftly is an AI-powered Gmail assistant that fetches unread emails, generates d
 
 - GitHub Repository Link: https://github.com/Mayuri7769/Draftly-Gmail-Reply-AI-Agent
 - Dockerized Solution: included via `docker-compose.yml`, `Backend/Dockerfile`, `frontend/Dockerfile`
-- Demo Video (< 5 min): follow the script in the "Demo Video Script" section
+
+## Demo Video
+https://drive.google.com/file/d/1tribi0jPwKph0IVlcmYkx4bWR8YTCtov/view?usp=drive_link
 
 ## Implemented Features
 
